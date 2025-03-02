@@ -6,7 +6,7 @@ Podcast information provided by [Listen Notes API](https://www.listennotes.com/)
 
 ## Features
 
-- Jetpack Compose UI. Custom animations, transitions, light/dark theme, and layouts.
+- Jetpack Compose UI. Custom animations, transitions, light and dark theme, and layouts.
 - Jetpack Compose Navigation.
 - Dependency injection with Hilt.
 - MVVM Architecture.
@@ -14,7 +14,7 @@ Podcast information provided by [Listen Notes API](https://www.listennotes.com/)
 - Allows background playback using a foreground service.
 - Media style notifications.
 - Uses a `MediaBrowserService` to control and expose the current media session.
-- Controls the current playback state with actions such as: play/pause, skip to next/previous, shuffle, repeat and stop.
+- Controls the current playback state with actions such as: play/pause, skip to next or previous, shuffle, repeat and stop.
 - Supports offline playback using `CacheDataSource` from `ExoPlayer`.
 - Process images to find its color palette using Palette API.
 
